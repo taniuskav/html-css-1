@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register Form</title>
+</head>
+<body>
+  <h1 align="center">You can register here!</h1>
+  <form action="thank_you.html">
+  <table border="0" align="center">
+    <tr>
+      <td>
+          <h3>Full Name</h3>
+      </td>
+      <td>
+        <input type="text">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Birthdate</h3>
+      </td>
+      <td>
+         <input type="date">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Country</h3>
+      </td>
+      <td>
+        <select>
+          <option disabled selected value>Select Your Country</option>
+            <optgroup label="Europe">
+          <option>Moldova</option>
+          <option>Romania</option>
+          <option>Bulgaria</option>
+          <option>Austria</option>
+            </optgroup>
+            <optgroup label="Asia">
+          <option>India</option>
+          <option>Rusia</option>
+          <option>Siria</option>
+          <option>Maldive</option>
+            </optgroup>
+        </select>
+      </td>
+    </tr>
+      <tr>
+        <td>
+          <h3>About You</h3>
+        </td>
+        <td>
+          <textarea name="About you" rows="7" cols="50" maxlength="50"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="checkbox" checked="checked" disabled>  I agree with <a target="_blank" href="terms.html">Terms and Conditions</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2" align="center">
+          <button type="submit">  &#10148; Register!</button>
+        </td>
+      </tr>
+  </table>
+  </form>
+</body>
+</html>
