@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <style>
+      body {
+        background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZmEYsuElijqmcYiohnUhydvwfNrj-Q4IixSuErjV1ByPkzvw0vQ);
+      }
+
+      p {
+        /*background-color: #333;*/
+        height: 50px;
+        text-align: center;
+      }
+
+      #first {
+        margin-top: 200px;
+      }
+
+      .left {
+        margin-right: 50px;
+      }
+
+      .right {
+        margin-left: 50px;
+      }
+
+      img {
+        border: 10px dotted white;
+        box-shadow: 0 0 5px 5px black;
+      }
+
+      #img_four {
+        transform:rotate(25deg);
+        transition: 3s;
+      }
+
+      #img_four:hover {
+        transform:rotate(150deg);
+      }
+
+  </style>
+
+</head>
+
+<body>
+
+    <p id="first">
+      <img class="left" src="1.jpeg" alt="">
+      <img class="right" src="2.jpeg" alt="">
+    </p>
+    <p>
+      <img src="3.jpeg" alt="">
+    </p>
+    <p>
+      <img id="img_four" class="left" src="4.jpeg" alt="">
+      <img class="right" src="5.jpeg" alt="">
+    </p>
+
+</body>
+</html>
